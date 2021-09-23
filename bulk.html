@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Patrick+Hand&family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/adimarfav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/adimarfav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/adimarfav/favicon-16x16.png">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Bulk Purchase</title>
+</head>
+<body style="padding-inline: 30px;">
+    <header id="header">
+        <div class="nav1">
+            <ul>
+                <div class="log-user">
+                    <h4>Hello! Adigun Oluwatomisin</h4>
+                </div>
+                <li id="login"><span><a href="#" id="log">LOGIN </a><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                    <div class="tri log">
+                        <div id="tri"></div>
+                        <div class="loginform">
+                            <form action="">
+                                <input type="text" placeholder="Username" >
+                                <input type="password" placeholder="Password">
+                                <button>login</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>.
+                <li id="login"><span><a href="#" id="acc">CREATE ACCOUNT</a><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                    <div class="tri acc">
+                        <div id="tri"></div>
+                        <div class="loginform" >
+                            <form action="">
+                                <input type="text" placeholder="First Name" >
+                                <input type="text" placeholder="Last Name">
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="email">
+                                <input type="password" placeholder="Enter Password">
+                                <input type="password" placeholder="Enter Password again">
+                                <button>Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img id="logo" src="images/adimar2.jpg" alt=""></a>
+            <div class="nav2">
+                <ul id="Items">
+                    <div class="user">
+                        <img src="images/hana.jpg" alt="" class="user-image">
+                        <h4>Adigun Oluwatomisin</h4>
+                    </div>
+                    <div class="sep" id="sep"></div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clothings.html">Clothings</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="procat.html">Others</a></li>
+                    <div class="sep"></div>
+                    <li><a href="#">get a cuostomized dress</a></li>
+                    <li><a href="Gallery.html" id="group">Gallery</a></li>
+                    <div class="sep"></div>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#"id="group" >Contact us</a></li>
+                    <div class="sep"></div>
+                    <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a></li>
+                </ul>
+                
+            </div>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+    </header>
+    <div class="fix">
+        <section class="pdetail">
+            <h1 id="d-title">Product Detail(Bulk Purchase)</h1>
+            <div class="pdet">
+                <div class="details">
+                    <div class="d-image">
+                        <img src="images/reco/img1.jpg" alt="">
+                    </div>
+                    <div class="d-info infos">
+                        <form action="">
+                            <div class="p-name">
+                                <h1>Two Piece  </h1>
+                                <strong>
+                                    <p><span>Product Code :</span>1243567</p>
+                                    <p><span>Availability :</span>Out Of Stock</p>
+                                </strong>
+                                <span id="DetRev"><button id="detButton">See Detail</button> <button id="revButton">See Reviews</button></span>
+                                <div class="see-detail">
+                                    <span>
+                                        <div class="a-colors">
+                                            <h4 >Available Colors :</h4>
+                                            <p>White</p>
+                                            <p>Black</p>
+                                            <p>Purple</p>
+                                            <p>Green</p>
+                                            <p>Yellow</p>
+                                            <p>Carton Color</p>
+                                        </div>
+                                        <div class="a-sizes">
+                                            <h4>Available Sizes :</h4>
+                                            <p>XX-Large</p>
+                                            <p>X-Large</p>
+                                            <p>Medium</p>
+                                            <p>Small</p>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="see-reviews">
+                                    <h2>Reviews</h2> 
+                                    <div class="rev-inner"><div id="r-image"><img src="images/hana.jpg" alt=""> <h4>Username Adigun</h4></div> 
+                                        <span>
+                                            <div class="star">
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="comment">
+                                                <article>This dress is nice and i am gonna get it right now. hhhghghghghhhkjfkjkjffffff </article>
+                                            </div>
+                                        </span> 
+                                    </div>
+                                    <div class="rev-inner"><div id="r-image" ><img src="" alt=""> <h4>Username</h4></div> 
+                                        <span>
+                                            <div>
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star checked" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="comment">
+                                                <article>This dress is nice and i am gonna get it right now</article>
+                                            </div>
+                                        </span> 
+                                    </div>
+                                    <h2>Rate This Product</h2>
+                                    <form action="" >
+                                        <div class="add-comment">
+                                            <ul class="rate">
+                                                <li ><label for="star_1"><i class="fa fa-star" aria-hidden="true"></i></label><input type="radio" name="rating" id="star_1" value="1"></li>
+                                                <li ><label for="star_2"><i class="fa fa-star" aria-hidden="true"></i></label><input type="radio" name="rating" id="star_2" value="2"></li>
+                                                <li ><label for="star_3"><i class="fa fa-star" aria-hidden="true"></i></label><input type="radio" name="rating" id="star_3" value="3"></li>
+                                                <li ><label for="star_4"><i class="fa fa-star" aria-hidden="true"></i></label><input type="radio" name="rating" id="star_4" value="4"></li>
+                                                <li ><label for="star_5"><i class="fa fa-star checked" aria-hidden="true"></i></label><input type="radio" name="rating" id="star_5" value="5"></li>
+                                            </ul>
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="Write a Review"></textarea>
+                                            <button>Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="p-price">
+                                <p><span id="bold">Price :</span><b>&#x20A6 2000</b></p>
+                                <p><strike>&#x20A6 3000</strike> </p>
+                            </div>
+                            <div class="p-quantity bulk-quantity">
+                                <span class="order-info">
+                                    <p><span id="bold" >Quantity:</span>
+                                        <input type="number" placeholder="5">
+                                    </p>
+                                    <p><span id="bold" >Input details of order:</span>
+                                        <textarea name="" id="" cols="30" rows="10" placeholder=" e.g  Quantity  /  Color  / Size"></textarea>
+                                    </p>
+                                </span>
+                            </div>
+                            <div class="sub-button">
+                                <button type="submit"><h2>Add To Cart</h2></button>
+                                <a href="#"><p><h2>Purchase Now</h2></p></a>
+                            </div>
+                        </form>
+                        <p id="share">Share this product with a friend</p>
+                        <span class="share ">
+                            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </span>
+
+                    </div>
+                </div>
+
+                <div class="featured">
+                    <h3 id="title">Just for you</h3>
+                    <div class="featured-inner">
+                        <div class="foryou owl-carousel  owl-theme">
+                            <div class="item"><img src="images/jewelry/img1-f.jpg" alt=""></div>
+                            <div class="item"><img src="images/jewelry/img3-f.jpg" alt=""></div>
+                            <div class="item"><img src="images/reco/img2.jpg" alt=""></div>
+                            <div class="item"><img src="images/shoes/img4.jpg" alt=""></div>
+                            <div class="item"><img src="images/shoes/img1.jpg" alt=""></div>
+                            <div class="item"><img src="images/reco/img1.jpg" alt=""></div>
+                            <div class="item"><img src="images/cloth/img3.jpg" alt=""></div>
+                            <div class="item"><img src="images/cloth/img4.jpg" alt=""></div>
+                            <div class="item"><img src="images/reco/img3.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <hr class="footer-line">
+        <section class="footer">
+            <div class="foot-inner">
+                <h1>Adimar</h1>
+                <div class="foot-inner2">
+                    <div>
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Your Cart</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Deals</h3>
+                        <ul>
+                            <li><a href="#">Bulk Sales</a></li>
+                            <li><a href="#">Get a customized dress</a></li>
+                            <li><a href="#">Products</a></li>
+                    
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Our Social Media </h3>
+                        <ul>
+                            <li><a href="#">Whatsapp</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Gmail</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>
+                                <p><span>Phone1 :</span> +2348098786754</p>
+                            </li>
+                            <li>
+                                <p><span>Phone1 :</span> +2348098786754</p>
+                            </li>
+                            <li>
+                                <p><span>Email :</span> dassygenius@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Location</h3>
+                        <ul>
+                            <li>
+                                <p>2, Onolaja, Ladi-lak Bus-Stop, onipan Bariga Road, Lagos.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <p>copyright &copy; 2021 all right reserved.  designed by tommyjames</p>
+            </div>
+        </section>
+        
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.foryou').owlCarousel({
+            center: true,
+            loop:true,
+            margin:8,
+            dots:false,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:5
+                },
+                1000:{
+                    items:6
+                }
+            }
+        })
+    </script>
+    
+    
+    <script type="text/javascript" src="js/head.js"></script>
+</body>
+</html>

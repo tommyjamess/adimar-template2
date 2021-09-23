@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Patrick+Hand&family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/adimarfav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/adimarfav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/adimarfav/favicon-16x16.png">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Footwear</title>
+</head>
+<body style="padding-inline: 30px;">
+    <header id="header">
+        <div class="nav1">
+            <ul>
+                <div class="log-user">
+                    <h4>Hello! Adigun Oluwatomisin</h4>
+                </div>
+                <li id="login"><span><a href="#" id="log">LOGIN </a><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                    <div class="tri log">
+                        <div id="tri"></div>
+                        <div class="loginform">
+                            <form action="">
+                                <input type="text" placeholder="Username" >
+                                <input type="password" placeholder="Password">
+                                <button>login</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>.
+                <li id="login"><span><a href="#" id="acc">CREATE ACCOUNT</a><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                    <div class="tri acc">
+                        <div id="tri"></div>
+                        <div class="loginform" >
+                            <form action="">
+                                <input type="text" placeholder="First Name" >
+                                <input type="text" placeholder="Last Name">
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="email">
+                                <input type="password" placeholder="Enter Password">
+                                <input type="password" placeholder="Enter Password again">
+                                <button>Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img id="logo" src="images/adimar2.jpg" alt=""></a>
+            <div class="nav2">
+                <ul id="Items">
+                    <div class="user">
+                        <i class="fa fa-times fa-2x" menu-icon" aria-hidden="true" style="color: white; transform:translateX(90px); margin-top:20px" onclick="menutoggle()"></i></a>
+                        <img src="images/hana.jpg" alt="" class="user-image">
+                        <h4>Adigun Oluwatomisin</h4>
+                    </div>
+                    <div class="sep" id="sep"></div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clothings.html">Clothings</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="procat.html">Others</a></li>
+                    <div class="sep"></div>
+                    <li><a href="#">get a cuostomized dress</a></li>
+                    <li><a href="gallery.html" id="group">Gallery</a></li>
+                    <div class="sep"></div>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#"id="group" >Contact us</a></li>
+                    <div class="sep"></div>
+                    <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a></li>
+                </ul>
+                
+            </div>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="filter"><h3><i class="fa fa-filter" aria-hidden="true"></i>Filter</h3></div>
+    </header>
+    
+    <div class="fix pfix">
+        <section class="products-cat">
+            <div class="pcat">  
+                <div class="p-catego">
+                    <div class="bag-categories owl-carousel  owl-theme">
+                        <a href="">
+                            <div class="item"><img src="images/bagss/img1.jpg" alt=""> <h2>Slippers</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/shoes/img1.jpg" alt=""><h2>Sneakers</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/cloth/tie-dye/img1.jpg" alt=""><h2>Sandals</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/shoes/img4.jpg" alt=""> <h2>Shoes</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/cloth/kids/img1.jpg" alt=""><h2>Heels</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/reco/img1.jpg" alt=""><h2>Men</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/cloth/img3.jpg" alt=""><h2>Body Corn</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/cloth/img4.jpg" alt=""><h2>Two-Piece</h2></div>
+                        </a>
+                        <a href="">
+                            <div class="item"><img src="images/reco/img3.jpg" alt=""><h2>For Sport</h2></div>
+                        </a>
+                    </div>
+                    <h1 id="d-title">Footwears</h1>
+
+                    <div class="prod-content">
+                        <div class="sidebar">
+                            
+                            <div class="brands">
+                                <h3>Browse Categories</h3> 
+                                <ul>
+                                    <li><a href="">Casuals Wears</a></li>
+                                    <li><a href="">Sports Wears</a></li>
+                                    <li><a href="">T-Shirts</a></li>
+                                    <li><a href="">Corporate wears</a></li>
+                                    <li><a href="">Sneakers</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Caps</a></li>
+                                    <li><a href="">Under-Wears</a></li>
+                                </ul>
+                            </div>
+                            <div class="price">
+                                <h3>Price Range</h3> 
+                                <ul>
+                                    <a href=""><label for="range1"> <input type="radio" id="range1" name="range">  Under &#x20A6 3000</label></a>
+                                    <a href=""><label for="range2"> <input type="radio" id="range2" name="range">  &#x20A6 3000 - &#x20A6 5000 </label></a>
+                                    <a href=""><label for="range3"> <input type="radio" id="range3" name="range">  &#x20A6 5000 - &#x20A6 10000 </label></a>
+                                    <a href=""><label for="range4"><input type="radio" id="range4" name="range">   &#x20A6 10000 - &#x20A6 20000 </label></a>
+                                    <a href=""><label for="range5"><input type="radio" id="range5" name="range">   &#x20A6 20000 - &#x20A6 30000 </label></a>
+                                    <a href=""><label for="range6"><input type="radio" id="range6" name="range">   &#x20A6 30000 - &#x20A6 40000 </label></a>
+                                </ul>
+                            </div>
+                            <div class="brands">
+                                <h3>Browse Brand</h3> 
+                                <ul>
+                                    <li><a href="">Adimar</a></li>
+                                    <li><a href="">Nike</a></li>
+                                    <li><a href="">Adidas</a></li>
+                                    <li><a href="">Dior</a></li>
+                                    <li><a href="">Puma</a></li>
+                                    <li><a href="">Fendi</a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="mainbar">
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img4.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Tie-Dye Two-Piece</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 5000.00</p>
+                                        <h6>adimar</h3>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img3.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Body Corn</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 7000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img1.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>AirMax</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 30000.00</p>
+                                        <h6>Nike</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Hand Bag</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 15000.00</p>
+                                        <h6>Dior</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>RoundNeck T-Shirt</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 5000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img3.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Cargo Trouser</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 7000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img4.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/cloth/img12.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div><div class="p-card">
+                                <a href="#"><img src="images/shoes/img3.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img1.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img4.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img4.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img3.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Sweater</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 10000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img1.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Tie-Dye Two-Piece</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 5000.00</p>
+                                        <h6>adimar</h3>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img3.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Body Corn</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 7000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>AirMax</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 30000.00</p>
+                                        <h6>Nike</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img4.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Hand Bag</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 15000.00</p>
+                                        <h6>Dior</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Tie-Dye Two-Piece</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 5000.00</p>
+                                        <h6>adimar</h3>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Body Corn</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 7000.00</p>
+                                        <h6>adimar</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img3.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>AirMax</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 30000.00</p>
+                                        <h6>Nike</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                            <div class="p-card">
+                                <a href="#"><img src="images/shoes/img2.jpg" alt=""></a>
+                                <div class="mainbar-info">
+                                    <a href="#">
+                                        <h4>Hand Bag</h4>
+                                        <p class="m-price"><span>Price : &#x20A6</span> 15000.00</p>
+                                        <h6>Dior</h6>
+                                    </a>
+                                </div>
+                                <p id="more-detail"><a href="prod-detail.html">See Details</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="footer-line">
+                <section class="footer">
+                    <div class="foot-inner">
+                        <h1>Adimar</h1>
+                        <div class="foot-inner2">
+                            <div>
+                                <h3>Navigation</h3>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Your Cart</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3>Deals</h3>
+                                <ul>
+                                    <li><a href="#">Bulk Sales</a></li>
+                                    <li><a href="#">Get a customized dress</a></li>
+                                    <li><a href="#">Products</a></li>
+                            
+                                </ul>
+                            </div>
+                            <div>
+                                <h3>Our Social Media </h3>
+                                <ul>
+                                    <li><a href="#">Whatsapp</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Gmail</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3>Contact</h3>
+                                <ul>
+                                    <li>
+                                        <p><span>Phone1 :</span> +2348098786754</p>
+                                    </li>
+                                    <li>
+                                        <p><span>Phone1 :</span> +2348098786754</p>
+                                    </li>
+                                    <li>
+                                        <p><span>Email :</span> dassygenius@gmail.com</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3>Location</h3>
+                                <ul>
+                                    <li>
+                                        <p>2, Onolaja, Ladi-lak Bus-Stop, onipan Bariga Road, Lagos.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <p>copyright &copy; 2021 all right reserved.  designed by tommyjames</p>
+                    </div>
+                </section>
+        
+            </div>
+        </section>
+        
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+        var MenuItems = document.getElementById("Items");
+            MenuItems.style.maxHeight = ("0px")
+            function menutoggle(){
+                if (Items.style.maxHeight == "0px"){
+                    Items.style.maxHeight = "100%"
+                }
+                else
+                {
+                    Items.style.maxHeight = "0px"
+                }
+            }
+    </script>
+    <script>
+        $('.bag-categories').owlCarousel({
+            center: true,
+            loop:true,
+            margin:8,
+            dots:false,
+            autoplay:false,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:3
+                },
+                600:{
+                    items:5
+                },
+                1000:{
+                    items:6
+                }
+            }
+        })
+    </script>
+    <script type="text/javascript" src="js/head.js"></script>
+</body>
+</html>
